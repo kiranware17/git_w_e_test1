@@ -6,7 +6,6 @@ public class Employee {
 	private String employeeLastName;
 	private Double salary;
 	private String address;
-	//change2
 	public Employee() {
 	}
 
