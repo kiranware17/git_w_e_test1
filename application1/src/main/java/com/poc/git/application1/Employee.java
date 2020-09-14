@@ -7,6 +7,7 @@ public class Employee {
 	private Double salary;
 	private String address;
 	public Employee() {
+		//my changes55
 	}
 
 	public Employee(Integer employeeId, String employeeFirstName, String employeeLastName, Double salary) {
