@@ -6,6 +6,17 @@ public class Employee {
 	private String employeeLastName;
 	private Double salary;
 
+	public Employee() {
+	}
+
+	public Employee(Integer employeeId, String employeeFirstName, String employeeLastName, Double salary) {
+		super();
+		this.employeeId = employeeId;
+		this.employeeFirstName = employeeFirstName;
+		this.employeeLastName = employeeLastName;
+		this.salary = salary;
+	}
+
 	public Integer getEmployeeId() {
 		return employeeId;
 	}
