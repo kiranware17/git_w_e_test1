@@ -5,11 +5,12 @@ public class Employee {
 	private String employeeFirstName;
 	private String employeeLastName;
 	private Double salary;
-	//change3
+	private String address;
 	public Employee() {
 	}
 
 	public Employee(Integer employeeId, String employeeFirstName, String employeeLastName, Double salary) {
+		//change22
 		super();
 		this.employeeId = employeeId;
 		this.employeeFirstName = employeeFirstName;
